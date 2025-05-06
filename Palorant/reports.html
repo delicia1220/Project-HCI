@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palorant Website</title>
+    <link rel="stylesheet" href="reports.css">
+</head>
+<body>
+    <video autoplay muted loop id="bgVideo">
+        <source src="Assets/sage-and-omen-valorant-moewalls-com (1).mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <!-- <h2 class="logo-text">Giot Games</h2> -->
+                <img src="Assets/giotlogo.png" alt="logo-image">
+            </a>
+
+            <div class="hamburger" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="nade.html" class="nav-link">Agents</a>
+                </li>
+                <li class="nav-item">
+                    <a href="maps.html" class="nav-link">Maps</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="reports.html" class="nav-link">Report Bug</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form class="register" id="register">
+            <h1 class="title">Report Bug</h1><br>
+            <input type="text" placeholder="username" id="inputUsername"><br>
+            <input type="text" placeholder="email" id="inputEmail"><br>
+            <input type="text" placeholder="server" id="inputServer"><br>
+            <textarea id="inputDesc" placeholder="bug description" rows="4"></textarea><br>
+            <label>
+                <input type="checkbox" id="inputAgreement">
+                Follow-ups email will be send to your email account
+            </label><br>
+
+            <button type="submit" id="btnRegister">Report</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <h2 class="footer-title">DOWNLOAD RIOT MOBILE COMPANION APP</h2>
+    
+        <div class="social-icons">
+          <a href="#"><img src="Assets/1.png" alt="Facebook" /></a>
+          <a href="#"><img src="Assets/2.png" alt="Instagram" /></a>
+          <a href="#"><img src="Assets/3.png" alt="YouTube" /></a>
+        </div>
+        
+        <div class="giot-logo">
+            <img src="Assets/logogiot.png" alt="logogiot">
+        </div>
+
+        <p class="footer-text">
+          © 2020-2025 Giot Games, Inc. GIOT GAMES, PALORANT and any associated logos are trademarks, service marks, and/or registered trademarks of Riot Games, Inc.
+        </p>
+      </footer>
+</body>
+<script src="reports.js"></script>
+</html>
